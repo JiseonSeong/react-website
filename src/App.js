@@ -1,14 +1,15 @@
 import "./App.css";
 import React from "react";
-//import Home fromt "./pages";
+import Navbar from "./components/Navbar";
+//import Home from "./pages";
 
-//import { BrowerRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
