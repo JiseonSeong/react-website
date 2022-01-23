@@ -14,7 +14,7 @@ import {
 } from "./HeroElements";
 
 const HeroSection = () => {
-  const [hover, setHover] = useState(false);
+  const [hover, setHover] = useState(false); //useState사용하는 destructuring방법
   const onHover = () => {
     setHover(!hover);
   };
